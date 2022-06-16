@@ -1,0 +1,15 @@
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.csproj.AssemblyReference.cache
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.AssemblyInfoInputs.cache
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.AssemblyInfo.cs
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.csproj.CoreCompileInputs.cache
+D:\Users\akazi\source\repos\Payment\bin\Debug\net6.0\Payment.exe
+D:\Users\akazi\source\repos\Payment\bin\Debug\net6.0\Payment.deps.json
+D:\Users\akazi\source\repos\Payment\bin\Debug\net6.0\Payment.runtimeconfig.json
+D:\Users\akazi\source\repos\Payment\bin\Debug\net6.0\Payment.dll
+D:\Users\akazi\source\repos\Payment\bin\Debug\net6.0\ref\Payment.dll
+D:\Users\akazi\source\repos\Payment\bin\Debug\net6.0\Payment.pdb
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.dll
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\ref\Payment.dll
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.pdb
+D:\Users\akazi\source\repos\Payment\obj\Debug\net6.0\Payment.genruntimeconfig.cache

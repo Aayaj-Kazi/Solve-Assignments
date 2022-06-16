@@ -1,0 +1,15 @@
+D:\Users\akazi\source\repos\Assignment1\bin\Debug\net6.0\Parent-child.exe
+D:\Users\akazi\source\repos\Assignment1\bin\Debug\net6.0\Parent-child.deps.json
+D:\Users\akazi\source\repos\Assignment1\bin\Debug\net6.0\Parent-child.runtimeconfig.json
+D:\Users\akazi\source\repos\Assignment1\bin\Debug\net6.0\Parent-child.dll
+D:\Users\akazi\source\repos\Assignment1\bin\Debug\net6.0\ref\Parent-child.dll
+D:\Users\akazi\source\repos\Assignment1\bin\Debug\net6.0\Parent-child.pdb
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.csproj.AssemblyReference.cache
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.AssemblyInfoInputs.cache
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.AssemblyInfo.cs
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.csproj.CoreCompileInputs.cache
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.dll
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\ref\Parent-child.dll
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.pdb
+D:\Users\akazi\source\repos\Assignment1\obj\Debug\net6.0\Parent-child.genruntimeconfig.cache

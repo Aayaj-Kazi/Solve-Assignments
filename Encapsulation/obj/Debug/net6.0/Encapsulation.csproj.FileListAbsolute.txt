@@ -1,0 +1,15 @@
+D:\Users\akazi\source\repos\Encapsulation\bin\Debug\net6.0\Encapsulation.exe
+D:\Users\akazi\source\repos\Encapsulation\bin\Debug\net6.0\Encapsulation.deps.json
+D:\Users\akazi\source\repos\Encapsulation\bin\Debug\net6.0\Encapsulation.runtimeconfig.json
+D:\Users\akazi\source\repos\Encapsulation\bin\Debug\net6.0\Encapsulation.dll
+D:\Users\akazi\source\repos\Encapsulation\bin\Debug\net6.0\ref\Encapsulation.dll
+D:\Users\akazi\source\repos\Encapsulation\bin\Debug\net6.0\Encapsulation.pdb
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.csproj.AssemblyReference.cache
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.AssemblyInfoInputs.cache
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.AssemblyInfo.cs
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.csproj.CoreCompileInputs.cache
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.dll
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\ref\Encapsulation.dll
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.pdb
+D:\Users\akazi\source\repos\Encapsulation\obj\Debug\net6.0\Encapsulation.genruntimeconfig.cache

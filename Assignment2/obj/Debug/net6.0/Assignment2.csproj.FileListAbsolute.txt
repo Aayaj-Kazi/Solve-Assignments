@@ -1,0 +1,15 @@
+D:\Users\akazi\source\repos\Assignment2\bin\Debug\net6.0\Assignment2.exe
+D:\Users\akazi\source\repos\Assignment2\bin\Debug\net6.0\Assignment2.deps.json
+D:\Users\akazi\source\repos\Assignment2\bin\Debug\net6.0\Assignment2.runtimeconfig.json
+D:\Users\akazi\source\repos\Assignment2\bin\Debug\net6.0\Assignment2.dll
+D:\Users\akazi\source\repos\Assignment2\bin\Debug\net6.0\ref\Assignment2.dll
+D:\Users\akazi\source\repos\Assignment2\bin\Debug\net6.0\Assignment2.pdb
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.csproj.AssemblyReference.cache
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.AssemblyInfoInputs.cache
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.AssemblyInfo.cs
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.csproj.CoreCompileInputs.cache
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.dll
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\ref\Assignment2.dll
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.pdb
+D:\Users\akazi\source\repos\Assignment2\obj\Debug\net6.0\Assignment2.genruntimeconfig.cache
