@@ -6,17 +6,52 @@ using System.Threading.Tasks;
 
 namespace Encapsulation
 {
-    public abstract class Students
+    public  class Students
     {
-        public int ID { get; set; }
 
-        public string Name { get; set; }
+        private int _ID;
         
-        public int FindAverage(int marks, int subjects)
+        public void SetID ( int id)
         {
-            return marks / subjects;
+            if (id > 0)
+            { _ID = id; }
+            else
+            {
+                Console.WriteLine("Enter Valid ID!!");
+            }
+
+        }
+        public int GetID()
+        {
+            return _ID;
         }
 
-        public abstract string Result(int average, int required);
+        private string _Name;
+        public void SetName(string name)
+        {
+            if (name.Length > 4)
+            {
+                _Name = name;
+            }
+            else
+            {
+                Console.WriteLine("Characters Of Name Must be more then 4");
+            }
+        }
+        public string GetName()
+        {
+            return _Name;
+        }
     }
-}
+      
+ }
+        
+        //public int FindAverage(int marks, int subjects)
+        //{
+        //    return marks / subjects;
+        //}
+
+
+       
+    
+

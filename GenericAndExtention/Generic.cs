@@ -8,5 +8,6 @@ namespace GenericAndExtention
 {
     internal class Generic
     {
+       
     }
 }

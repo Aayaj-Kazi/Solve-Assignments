@@ -1,0 +1,14 @@
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\bin\Debug\net6.0\ExceptionTest.exe
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\bin\Debug\net6.0\ExceptionTest.deps.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\bin\Debug\net6.0\ExceptionTest.runtimeconfig.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\bin\Debug\net6.0\ExceptionTest.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\bin\Debug\net6.0\ref\ExceptionTest.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\bin\Debug\net6.0\ExceptionTest.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ExceptionTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ExceptionTest.AssemblyInfoInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ExceptionTest.AssemblyInfo.cs
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ExceptionTest.csproj.CoreCompileInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ExceptionTest.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ref\ExceptionTest.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ExceptionTest.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Assignment2\obj\Debug\net6.0\ExceptionTest.genruntimeconfig.cache

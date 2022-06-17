@@ -10,24 +10,33 @@ namespace Assignment2
     {
         public static void Main(string[] args)
         {
-            int[] collection = { 1, 2, 4, 5, 6, 7, 8,3,0 };
+            
+            int[] collection = { 1, 2, 4, 5, 6, 7, 9, 5, 8,3,0 };
             int operator1 = 100;
-            try{
-                for (int i = 0; i < collection.Length-1; i++)
+            try
+            {
+                for (int i = 0; i < collection.Length - 1; i++)
                 {
                     var temp = collection[i + 1];
                     Console.WriteLine(operator1 / temp);
-
+                    throw new NumberException();
                 }
             }
-            catch (IndexOutOfRangeException ir)
-            { Console.WriteLine("Given Array elemts id exceeding the length of array name of exception is:" + ir); }
+           
+            catch (NumberException ex)
+            {
+                Console.WriteLine(ex);
+            }
 
-            catch ( DivideByZeroException d)
-            { Console.WriteLine("Cannot devide any integer by 0 !!  Please give input except 0 and the name of exception is:"+d); }
-            
-            catch (InvalidCastException ic)
-            { Console.WriteLine("Please give integer as input except 0 and the name of exception is:" + ic); }
+            catch (IndexOutOfRangeException limitException)
+            { Console.WriteLine("Message:" + limitException.Message + " Source:" + limitException.StackTrace); }
+
+            catch (DivideByZeroException divZero)
+            { Console.WriteLine("Cannot devide any integer by 0 !!:" + divZero.StackTrace); }
+
+            catch (InvalidCastException ex)
+            { Console.WriteLine("Please give integer as input except 0 and the name of exception is:" + ex.Message); }
+
 
             catch (Exception e)
             { Console.WriteLine("Specific Exception not found and the name of exception is:" + e); }

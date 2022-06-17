@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\akazi\\source\\repos\\Encapsulation\\Encapsulation.csproj": {}
+    "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Encapsulation\\Encapsulation.csproj": {}
   },
   "projects": {
-    "D:\\Users\\akazi\\source\\repos\\Encapsulation\\Encapsulation.csproj": {
+    "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Encapsulation\\Encapsulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\akazi\\source\\repos\\Encapsulation\\Encapsulation.csproj",
+        "projectUniqueName": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Encapsulation\\Encapsulation.csproj",
         "projectName": "Encapsulation",
-        "projectPath": "D:\\Users\\akazi\\source\\repos\\Encapsulation\\Encapsulation.csproj",
+        "projectPath": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Encapsulation\\Encapsulation.csproj",
         "packagesPath": "D:\\Users\\akazi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\akazi\\source\\repos\\Encapsulation\\obj\\",
+        "outputPath": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Encapsulation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\akazi\\AppData\\Roaming\\NuGet\\NuGet.Config",
