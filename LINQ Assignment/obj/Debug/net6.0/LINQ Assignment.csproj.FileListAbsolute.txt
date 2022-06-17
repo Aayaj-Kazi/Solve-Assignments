@@ -1,0 +1,15 @@
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\bin\Debug\net6.0\LINQ Assignment.exe
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\bin\Debug\net6.0\LINQ Assignment.deps.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\bin\Debug\net6.0\LINQ Assignment.runtimeconfig.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\bin\Debug\net6.0\LINQ Assignment.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\bin\Debug\net6.0\ref\LINQ Assignment.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\bin\Debug\net6.0\LINQ Assignment.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.csproj.AssemblyReference.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.AssemblyInfoInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.AssemblyInfo.cs
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.csproj.CoreCompileInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\ref\LINQ Assignment.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\LINQ Assignment\obj\Debug\net6.0\LINQ Assignment.genruntimeconfig.cache
