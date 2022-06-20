@@ -19,7 +19,7 @@ namespace Generic
                     int number = int.Parse(assignment.str);
                     Console.WriteLine(number);
 
-            assignment.str = " 2009 - 05 - 08";
+            assignment.str = " 2022 - 06 - 20";
            
             DateTime date = DateTime.Parse(assignment.str);
             Console.WriteLine(date);

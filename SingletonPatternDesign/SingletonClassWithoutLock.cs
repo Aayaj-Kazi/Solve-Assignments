@@ -17,7 +17,7 @@ namespace SingletonPatternDesign
 
         private SingletonClassWithoutLock()
         {
-            Console.WriteLine("In Parameterless constructor");
+            Console.WriteLine("In Singleton Class Without Lock");
         }
         private SingletonClassWithoutLock(string vehicleType, string vehicleNumber)
         {

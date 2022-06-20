@@ -26,6 +26,7 @@ namespace SingletonPatternDesign
             Car.ParkingTime = 4;
 
             Console.WriteLine(" " + Car.VehicleType + "  " + Car.VehicleNumber + "   " + Car.ParkingTime);
+            Console.WriteLine("PArking Charge will be: "+Car.PayForPark(Car.ParkingTime));
         }
     }
 }

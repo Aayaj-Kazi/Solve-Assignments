@@ -17,7 +17,7 @@ namespace SingletonPatternDesign
         private static readonly object obj = new object();
         private SingletonClassWithLock()
         {
-            Console.WriteLine("In Parameterless constructor");
+            Console.WriteLine("In Singleton Class With Lock");
         }
         private SingletonClassWithLock(string vehicleType, string vehicleNumber)
         {
@@ -47,6 +47,12 @@ namespace SingletonPatternDesign
                 }
                 return instance;
             }
+        }
+
+        public int PayForPark(int parkingTime)
+        {
+            int fee = parkingTime * 100;
+            return fee;
         }
     }
 }

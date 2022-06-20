@@ -14,6 +14,9 @@ namespace LINQ_Assignment
         public string City { get; set; }    
         public double Salary { get; set; }
 
+
+
+
         public static void Main(string[] args)
         {
             //2. Create List of Employees with hardcodes employes(100 entries, Id 1 to 100)
@@ -21,43 +24,45 @@ namespace LINQ_Assignment
            // Employee employee = new Employee();
 
             List<Employee> empList = new List<Employee>();
+
             
+            var cityList = new List<string> { "Pune", "Mumbai", "Ahmadnagar", "Nagpur","Akluj", "Latur","Delhi" };
+           
+            var random = new Random();
+         
             for (int i = 1; i < 101; i++)
             {
+                int index = random.Next(cityList.Count);
                 empList.Add(new Employee()
-                    {
-                        Id = i,
-                        Name = "  Employee" + i,
-                        City = "  City" + i,
-                        Salary = 10000+i
+                {
+                    Id = i,
+                    Name = "  Employee" + i,
+                    City = cityList[index],
+                    Salary = 10000 + i
 
-                    });
+                }); ;
                 }
 
-           
+
 
 
 
             //3. Write a Linq query to find employee with an id 45
-            var empID = empList.Where(e => e.Id == 45);
-            
-            foreach (Employee emp in empID)
+            var empNumber = empList.Where(e => e.Id == 45);
+            foreach (Employee emp in empNumber)
             {
-                Console.WriteLine("ID:"+emp.Id+" Name:"+emp.Name+" City:"+emp.City+" Salary:"+emp.Salary);
+                Console.WriteLine(" Q3 ==> ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
             }
             Console.WriteLine();
 
-            //4.Write a Linq query to find employees with an id that are even
-            for (int i = 1; i < 101; i++)
+
+            //4. Write a Linq query to find employees with an id that are even
+
+            var empEven = empList.Where(e => e.Id%2 == 0);
+           Console.WriteLine(" Q4 ==> ");
+            foreach (Employee emp in empEven)
             {
-                if (i % 2 == 0)
-                {
-                    var empEven = empList.Where(e => e.Id == i);
-                    foreach (Employee emp in empEven)
-                    {
-                        Console.WriteLine("ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
-                    }
-                }
+                Console.WriteLine("ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
             }
             Console.WriteLine();
 
@@ -67,21 +72,21 @@ namespace LINQ_Assignment
 
             //5. Write a Linq query to find highest salary holder
             var highest=empList.Max(e => e.Salary);
-            Console.WriteLine("Max Salary is :" + highest);
+            Console.WriteLine(" Q5 ==> Max Salary is :" + highest);
             Console.WriteLine();
 
 
 
 
             //6. Write a Linq query to find highest salary holder in Pune City
-            // there is no city as Pune in employee list therefor City25 
-            var highSalaryCity = empList.Where(emp => emp.City == "City1").GroupBy(e => e.City)
+         
+            var highSalaryCity = empList.Where(emp => emp.City == "Pune").GroupBy(e => e.City)
                     .Select(em => em.OrderByDescending(e => e.Salary).First());
            
-            Console.WriteLine("Max Salary in Pune// City 25 :" + highSalaryCity);
+           
             foreach (Employee emp in highSalaryCity)
             {
-                Console.WriteLine("ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
+                Console.WriteLine(" Q6 ==> Max Salary holder in Pune :- ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
             }
             Console.WriteLine();
 
@@ -97,7 +102,7 @@ namespace LINQ_Assignment
             
             foreach (Employee emp in highSalEachCity)
             {
-                Console.WriteLine("ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
+                Console.WriteLine(" Q7 ==> ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
             }
         }
     }
