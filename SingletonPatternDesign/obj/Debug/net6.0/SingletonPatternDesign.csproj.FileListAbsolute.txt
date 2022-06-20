@@ -1,0 +1,15 @@
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\bin\Debug\net6.0\SingletonPatternDesign.exe
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\bin\Debug\net6.0\SingletonPatternDesign.deps.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\bin\Debug\net6.0\SingletonPatternDesign.runtimeconfig.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\bin\Debug\net6.0\SingletonPatternDesign.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\bin\Debug\net6.0\ref\SingletonPatternDesign.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\bin\Debug\net6.0\SingletonPatternDesign.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.csproj.AssemblyReference.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.AssemblyInfoInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.AssemblyInfo.cs
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.csproj.CoreCompileInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\ref\SingletonPatternDesign.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesign\obj\Debug\net6.0\SingletonPatternDesign.genruntimeconfig.cache

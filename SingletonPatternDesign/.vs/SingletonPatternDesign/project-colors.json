@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9e019a0a-a341-4543-9204-ec5b8ef306f4": {
+      "ProjectGuid": "9e019a0a-a341-4543-9204-ec5b8ef306f4",
+      "DisplayName": "SingletonPatternDesign",
+      "ColorIndex": 0
+    },
+    "c84b5b8d-2854-4da9-89c4-c47184515371": {
+      "ProjectGuid": "c84b5b8d-2854-4da9-89c4-c47184515371",
+      "DisplayName": "FactoryDesignPattern",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
