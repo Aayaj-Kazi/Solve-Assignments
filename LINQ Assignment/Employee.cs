@@ -82,9 +82,10 @@ namespace LINQ_Assignment
          
             var highSalaryCity = empList.Where(emp => emp.City == "Pune").GroupBy(e => e.City)
                     .Select(em => em.OrderByDescending(e => e.Salary).First());
-           
-           
-            foreach (Employee emp in highSalaryCity)
+            //highSalaryCity.forEach()
+
+
+            foreach (var emp in highSalaryCity)
             {
                 Console.WriteLine(" Q6 ==> Max Salary holder in Pune :- ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
             }
@@ -100,7 +101,7 @@ namespace LINQ_Assignment
             var highSalEachCity = empList.GroupBy(e => e.City)
                  .Select(em => em.OrderByDescending(e => e.Salary).First());
             
-            foreach (Employee emp in highSalEachCity)
+            foreach (var emp in highSalEachCity)
             {
                 Console.WriteLine(" Q7 ==> ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
             }
