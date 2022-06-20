@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ad0dd3a4-e981-42de-bd9f-9e05a3f7b0aa": {
+      "ProjectGuid": "ad0dd3a4-e981-42de-bd9f-9e05a3f7b0aa",
+      "DisplayName": "TaxiBookApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

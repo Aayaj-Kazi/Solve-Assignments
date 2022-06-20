@@ -1,0 +1,15 @@
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\bin\Debug\net6.0\TaxiBookApp.exe
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\bin\Debug\net6.0\TaxiBookApp.deps.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\bin\Debug\net6.0\TaxiBookApp.runtimeconfig.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\bin\Debug\net6.0\TaxiBookApp.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\bin\Debug\net6.0\ref\TaxiBookApp.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\bin\Debug\net6.0\TaxiBookApp.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.csproj.AssemblyReference.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.AssemblyInfoInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.AssemblyInfo.cs
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.csproj.CoreCompileInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\ref\TaxiBookApp.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\TaxiBookApp\obj\Debug\net6.0\TaxiBookApp.genruntimeconfig.cache

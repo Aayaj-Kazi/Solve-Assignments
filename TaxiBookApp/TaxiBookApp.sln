@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiBookApp", "TaxiBookApp.csproj", "{AD0DD3A4-E981-42DE-BD9F-9E05A3F7B0AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD0DD3A4-E981-42DE-BD9F-9E05A3F7B0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0DD3A4-E981-42DE-BD9F-9E05A3F7B0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0DD3A4-E981-42DE-BD9F-9E05A3F7B0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0DD3A4-E981-42DE-BD9F-9E05A3F7B0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBAC2B26-C586-461C-8B62-100CA3AC16B3}
+	EndGlobalSection
+EndGlobal
