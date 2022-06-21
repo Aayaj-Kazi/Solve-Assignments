@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SingletonPatternDesign
 {
-    public sealed class SingletonClassWithLock
+    public sealed class VehicleParkingWithLock
     {
         public string VehicleType { get; set; }
 
@@ -15,25 +15,25 @@ namespace SingletonPatternDesign
         public int ParkingTime { get; set; }
 
         private static readonly object obj = new object();
-        private SingletonClassWithLock()
+        private VehicleParkingWithLock()
         {
             Console.WriteLine("In Singleton Class With Lock");
         }
-        private SingletonClassWithLock(string vehicleType, string vehicleNumber)
+        private VehicleParkingWithLock(string vehicleType, string vehicleNumber)
         {
             VehicleType = vehicleType;
             VehicleNumber = vehicleNumber;
         }
 
-        private SingletonClassWithLock(string vehicleType, string vehicleNumber, int parkingTime)
+        private VehicleParkingWithLock(string vehicleType, string vehicleNumber, int parkingTime)
         {
             VehicleType = vehicleType;
             VehicleNumber = vehicleNumber;
             ParkingTime = parkingTime;
         }
 
-        private static SingletonClassWithLock instance;
-        public static SingletonClassWithLock GetInstance
+        private static VehicleParkingWithLock instance;
+        public static VehicleParkingWithLock GetInstance
         {
             get
             {
@@ -42,7 +42,7 @@ namespace SingletonPatternDesign
                     lock (obj)
                     {
                         if (instance == null)
-                            instance = new SingletonClassWithLock();
+                            instance = new VehicleParkingWithLock();
                     }
                 }
                 return instance;

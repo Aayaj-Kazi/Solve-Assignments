@@ -10,7 +10,7 @@ namespace SingletonPatternDesign
     {
         static void Main(string[] args)
         {
-            SingletonClassWithoutLock Bike = SingletonClassWithoutLock.GetInstance;
+            VehicleParking Bike = VehicleParking.GetInstance;
             
             Bike.VehicleType = "Two Wheeler";
             Bike.VehicleNumber = "MH 45 Ak 2099";
@@ -20,7 +20,7 @@ namespace SingletonPatternDesign
 
 
 
-            SingletonClassWithLock Car=SingletonClassWithLock.GetInstance;
+            VehicleParkingWithLock Car=VehicleParkingWithLock.GetInstance;
             Car.VehicleType = "Four Wheeler";
             Car.VehicleNumber = "MH 12 EX 0348";
             Car.ParkingTime = 4;

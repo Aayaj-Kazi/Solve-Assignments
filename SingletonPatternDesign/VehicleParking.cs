@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SingletonPatternDesign
 {
     //Parking system
-    public sealed class SingletonClassWithoutLock           //sealed , so that it can't be derived
+    public sealed class VehicleParking           //sealed , so that it can't be derived
     {
         public string VehicleType { get; set; }
 
@@ -15,30 +15,30 @@ namespace SingletonPatternDesign
 
         public int ParkingTime { get; set; }
 
-        private SingletonClassWithoutLock()
+        private VehicleParking()
         {
             Console.WriteLine("In Singleton Class Without Lock");
         }
-        private SingletonClassWithoutLock(string vehicleType, string vehicleNumber)
+        private VehicleParking(string vehicleType, string vehicleNumber)
         {
             VehicleType = vehicleType;
             VehicleNumber = vehicleNumber;
         }
 
-        private SingletonClassWithoutLock(string vehicleType, string vehicleNumber, int parkingTime) 
+        private VehicleParking(string vehicleType, string vehicleNumber, int parkingTime) 
         {
             VehicleType = vehicleType;
             VehicleNumber = vehicleNumber;
             ParkingTime = parkingTime;
         }
 
-        private static SingletonClassWithoutLock instance;
-        public static SingletonClassWithoutLock GetInstance
+        private static VehicleParking instance;
+        public static VehicleParking GetInstance
         {
             get
             {
                 if (instance == null)
-                    instance = new SingletonClassWithoutLock();
+                    instance = new VehicleParking();
 
                 return instance;
             }
