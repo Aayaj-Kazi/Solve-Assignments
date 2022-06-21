@@ -1,0 +1,15 @@
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\bin\Debug\net6.0\SingletonPatternDesignUpdated.exe
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\bin\Debug\net6.0\SingletonPatternDesignUpdated.deps.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\bin\Debug\net6.0\SingletonPatternDesignUpdated.runtimeconfig.json
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\bin\Debug\net6.0\SingletonPatternDesignUpdated.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\bin\Debug\net6.0\ref\SingletonPatternDesignUpdated.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\bin\Debug\net6.0\SingletonPatternDesignUpdated.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.csproj.AssemblyReference.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.AssemblyInfoInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.AssemblyInfo.cs
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.csproj.CoreCompileInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\ref\SingletonPatternDesignUpdated.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\SingletonPatternDesignUpdated\obj\Debug\net6.0\SingletonPatternDesignUpdated.genruntimeconfig.cache
