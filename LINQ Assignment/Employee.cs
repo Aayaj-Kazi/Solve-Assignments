@@ -48,7 +48,8 @@ namespace LINQ_Assignment
 
 
             //3. Write a Linq query to find employee with an id 45
-           // var empNumber = empList.Where(e => e.Id == 45);
+            var empNumber = empList.Where(e => e.Id == 45);
+
             foreach (Employee emp in empList.Where(e => e.Id == 45))
             {
                 Console.WriteLine(" Q3 ==> ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
@@ -80,26 +81,22 @@ namespace LINQ_Assignment
 
 
             //6. Write a Linq query to find highest salary holder in Pune City
-         
-            var highSalaryCity = empList.Where(emp => emp.City == "Pune").GroupBy(e => e.City)
-                    .Select(em => em.OrderByDescending(e => e.Salary).First());
-            //highSalaryCity.forEach()
-            
 
-            foreach (var emp in empList.Where(emp => emp.City == "Pune").GroupBy(e => e.City)
-                    .Select(em => em.OrderByDescending(e => e.Salary).First()))
-            {
-                Console.WriteLine(" Q6 ==> Max Salary holder in Pune :- ID:" + emp.Id + " Name:" + emp.Name + " City:" + emp.City + " Salary:" + emp.Salary);
-            }
+            var highSalaryCity = empList.Where(emp => emp.City == "Pune").OrderByDescending(e => e.Salary).First();
+          Console.WriteLine(" Q6 ==> Max Salary holder in Pune :- ID:" + highSalaryCity.Id + " Name:" + highSalaryCity.Name + 
+              " City:" + highSalaryCity.City + " Salary:" + highSalaryCity.Salary);
+
+
+           
             Console.WriteLine();
 
-            
-
+           
+               
 
 
 
             //7. Write a Linq query to find highest salary holder from each city
-            
+
             var highSalEachCity = empList.GroupBy(e => e.City)
                  .Select(em => em.OrderByDescending(e => e.Salary).First());
             
