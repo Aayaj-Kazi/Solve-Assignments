@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\akazi\\source\\repos\\Payment\\Payment.csproj": {}
+    "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Payment\\Payment.csproj": {}
   },
   "projects": {
-    "D:\\Users\\akazi\\source\\repos\\Payment\\Payment.csproj": {
+    "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Payment\\Payment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\akazi\\source\\repos\\Payment\\Payment.csproj",
+        "projectUniqueName": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Payment\\Payment.csproj",
         "projectName": "Payment",
-        "projectPath": "D:\\Users\\akazi\\source\\repos\\Payment\\Payment.csproj",
+        "projectPath": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Payment\\Payment.csproj",
         "packagesPath": "D:\\Users\\akazi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\akazi\\source\\repos\\Payment\\obj\\",
+        "outputPath": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Payment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\akazi\\AppData\\Roaming\\NuGet\\NuGet.Config",

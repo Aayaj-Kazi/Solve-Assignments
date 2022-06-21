@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    internal class CardPayment : Payment
+    class CardPayment : Payment
     {
         public bool credit(int amount)
         {

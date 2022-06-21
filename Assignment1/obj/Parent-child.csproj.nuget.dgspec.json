@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\akazi\\source\\repos\\Assignment1\\Parent-child.csproj": {}
+    "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Assignment1\\Parent-child.csproj": {}
   },
   "projects": {
-    "D:\\Users\\akazi\\source\\repos\\Assignment1\\Parent-child.csproj": {
+    "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Assignment1\\Parent-child.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\akazi\\source\\repos\\Assignment1\\Parent-child.csproj",
+        "projectUniqueName": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Assignment1\\Parent-child.csproj",
         "projectName": "Parent-child",
-        "projectPath": "D:\\Users\\akazi\\source\\repos\\Assignment1\\Parent-child.csproj",
+        "projectPath": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Assignment1\\Parent-child.csproj",
         "packagesPath": "D:\\Users\\akazi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\akazi\\source\\repos\\Assignment1\\obj\\",
+        "outputPath": "D:\\Users\\akazi\\Desktop\\Assignments\\Solve-Assignments\\Assignment1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\akazi\\AppData\\Roaming\\NuGet\\NuGet.Config",

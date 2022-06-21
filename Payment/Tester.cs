@@ -11,9 +11,12 @@ namespace Assignment1
         static void Main(string[] args)
         { 
             UPIpayment uPIpayment = new UPIpayment();   
+            CardPayment cardPayment = new CardPayment();
             
             int balance = 100000;
             Console.WriteLine("Available balance is : " + balance);
+
+
 
             //Console.WriteLine("Enter amount to be transfer : ");
             //int amount = Convert.ToInt32(Console.ReadLine());
@@ -41,7 +44,7 @@ namespace Assignment1
             Console.WriteLine("1:UPI   2:Credit/Debit Card  3:Net Banking ");
 
 
-            int choice = (char)Console.Read();
+            int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
                 case 1:
@@ -66,7 +69,7 @@ namespace Assignment1
                         string cardNo = Console.ReadLine();
                         Console.WriteLine("Enter Amount to be transfer: ");
                         int amt1 = Convert.ToInt32(Console.ReadLine());
-                        if (uPIpayment.debit(amt1))
+                        if (cardPayment.debit(amt1))
                         {
                             Console.WriteLine("Payment succesful!!!");
                         }
