@@ -21,7 +21,21 @@ namespace SingletonPatternDesignUpdated
                 Console.WriteLine("Train is Stopped!!");
             }
 
-            
+
+            DriveTrain newLocoDriver = DriveTrain.getInstance;
+            if (newLocoDriver.Drive("backward"))
+            {
+                Console.WriteLine("Train is moving!!");
+            }
+            else
+            {
+                Console.WriteLine("Train is Stopped!!");
+            }
+
+
+
+
+
             //WithOut Lock
             BlowHorn pressButton = BlowHorn.getInstance;
             
