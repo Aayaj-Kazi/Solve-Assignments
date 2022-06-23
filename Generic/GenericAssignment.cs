@@ -8,7 +8,50 @@ namespace Generic
 {
     class GenericAssignment<T>
     {//convert String to number and string to date
-        public T ConvertString { get; set; }
+       
+
+        public void Convertor<T>(string input)
+        {
+            //Use switch case instead of if else
+            switch (typeof(T).Name)
+            {
+                case "Int32":
+                   var result = int.Parse(input);
+                   Console.WriteLine(" " + result);
+                    break;
+
+                case "DateTime":
+                    var resultDate = DateTime.Parse(input);
+                    Console.WriteLine(" " + resultDate);
+                    break;
+
+                default:
+                    Console.WriteLine("Wrong input");
+                    break;
+            }
+
+
+
+
+            //if(typeof(T) == typeof(int))
+            //{
+            //    var result = int.Parse(input);
+            //    //return number;
+            //    Console.WriteLine(" " + result);
+            //}
+
+
+            //else if (typeof(T) == typeof(DateTime))
+            //{
+            //    var result = DateTime.Parse(input);
+            //    // return date;
+            //    Console.WriteLine(" " + result);
+            //}
+
+
+
+
+        }
 
     }
 

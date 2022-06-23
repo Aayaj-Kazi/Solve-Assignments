@@ -6,26 +6,45 @@ using System.Threading.Tasks;
 
 namespace Generic
 {
-    internal class DriverClass
+    class DriverClass
     {
         public static void Main(string[] args)
         {
-          //Console.WriteLine("Enter Choice:");
-          //int choice=Convert.ToInt32(Console.ReadLine());
+            GenericAssignment<string> Assignment = new GenericAssignment<string>();
 
-                    GenericAssignment<string> assignment = new GenericAssignment<string>();
-                    assignment.ConvertString = "120530489";
+            Console.WriteLine("Please Enter string:");
+           string InputString = Console.ReadLine();
 
-                    int number = int.Parse(assignment.ConvertString);
-                    Console.WriteLine("Number: "+number);
+            Console.WriteLine("Enter choice: 1.Convert String to Integer    2.Convert String to Date");
+            int Choice = Convert.ToInt32(Console.ReadLine());
 
-            assignment.ConvertString = " 2022 - 06 - 23";
-           
-            DateTime date = DateTime.Parse(assignment.ConvertString);
-            Console.WriteLine("Date :"+date);
+             
 
-           
+            if(Choice == 1)
+            {
+               Assignment.Convertor<int>(InputString);
+            }
+            else if(Choice == 2)
+            {
+               Assignment.Convertor<DateTime>(InputString);
+            }
+            else
+            {
+                Console.WriteLine("Please Enter valid Choice!!!");
+            }
+
         }
     }
 }
 
+
+
+//        assignment.ConvertString = "120530489";
+
+//        int number = int.Parse(assignment.ConvertString);
+//        Console.WriteLine("Number: "+number);
+
+//assignment.ConvertString = " 2022 - 06 - 23";
+
+//DateTime date = DateTime.Parse(assignment.ConvertString);
+//Console.WriteLine("Date :"+date);

@@ -10,10 +10,10 @@ namespace Extension
 	{
 		public static void Main(string[] args)
 		{
-			string inputString = "banana";
+			string InputString = "banana";
 
-			Console.WriteLine("Reversed string:"+ inputString.Reverse());
-			Console.WriteLine("changes case:" + inputString.ChangeCaseOfFirstCharacter());
+			Console.WriteLine("Reversed string:"+ InputString.Reverse());
+			Console.WriteLine("changes case:" + InputString.ChangeCaseOfFirstCharacter());
 
 
 		}
