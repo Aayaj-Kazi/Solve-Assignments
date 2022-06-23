@@ -14,15 +14,15 @@ namespace Generic
           //int choice=Convert.ToInt32(Console.ReadLine());
 
                     GenericAssignment<string> assignment = new GenericAssignment<string>();
-                    assignment.str = "120530489";
+                    assignment.ConvertString = "120530489";
 
-                    int number = int.Parse(assignment.str);
-                    Console.WriteLine(number);
+                    int number = int.Parse(assignment.ConvertString);
+                    Console.WriteLine("Number: "+number);
 
-            assignment.str = " 2022 - 06 - 20";
+            assignment.ConvertString = " 2022 - 06 - 23";
            
-            DateTime date = DateTime.Parse(assignment.str);
-            Console.WriteLine(date);
+            DateTime date = DateTime.Parse(assignment.ConvertString);
+            Console.WriteLine("Date :"+date);
 
            
         }

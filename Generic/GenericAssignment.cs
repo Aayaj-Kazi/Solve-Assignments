@@ -8,7 +8,7 @@ namespace Generic
 {
     class GenericAssignment<T>
     {//convert String to number and string to date
-        public T str { get; set; }
+        public T ConvertString { get; set; }
 
     }
 
