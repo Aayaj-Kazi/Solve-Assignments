@@ -15,7 +15,7 @@ namespace Extension
 			Console.WriteLine("Reversed string:"+ InputString.Reverse());
 			Console.WriteLine("changes case:" + InputString.ChangeCaseOfFirstCharacter());
 
-
+			Console.WriteLine("Reversed string Using Recursion:" + InputString.ReverseStringUsingRecursion());
 		}
 	}
 }

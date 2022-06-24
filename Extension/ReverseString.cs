@@ -23,12 +23,24 @@ namespace Extension
 				newString = newString + inputString[i];
             }
 
-			// abd recursion too
+			// and recursion too
 			
 			
 			return newString;
 		}
 
+		static string newStringByRecursion = "";
+		public static string ReverseStringUsingRecursion(this string inputString)
+		{
+			if ((inputString == null) || (inputString.Length < 1))
+			{ return newStringByRecursion; }
+
+			else { 
+			newStringByRecursion = newStringByRecursion + inputString[inputString.Length - 1];
+
+			return ReverseStringUsingRecursion(inputString.Substring(0, inputString.Length - 1));
+			}
+		}
 		
 	}
 }
