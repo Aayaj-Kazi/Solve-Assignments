@@ -37,14 +37,11 @@ namespace SingletonPatternDesign
         {
             get
             {
-                if(instance == null)     //Double Checked Locking
-                {
                     lock (obj)
                     {
                         if (instance == null)
                             instance = new VehicleParkingWithLock();
                     }
-                }
                 return instance;
             }
         }

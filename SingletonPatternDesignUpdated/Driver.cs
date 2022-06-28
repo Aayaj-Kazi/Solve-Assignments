@@ -10,28 +10,50 @@ namespace SingletonPatternDesignUpdated
     {
         public static void Main(string[] args)
         {
-            //With lock
-            DriveTrain locoDriver = DriveTrain.getInstance;
-           if (locoDriver.Drive("forward"))
-            {
-                Console.WriteLine("Train is moving!!");
-            }
-           else
-            {
-                Console.WriteLine("Train is Stopped!!");
-            }
+           
+            Task t1 = Task.Factory.StartNew(() => {
+                PeopleCounterSystem countPeople = PeopleCounterSystem.getInstance;
+                if (countPeople.ValidPerson(1))
+                { Console.WriteLine("Welcome 111111111111111111!!"); }
+                else
+                {
+                    Console.WriteLine("Not Allowed");
+                }
+            });
+
+            Task t2= Task.Factory.StartNew(() => {
+                PeopleCounterSystem countPeople2= PeopleCounterSystem.getInstance;
+                if (countPeople2.ValidPerson(2))
+                { Console.WriteLine("Welcome 22222222222222222!!"); }
+                else
+                {
+                    Console.WriteLine("Not Allowed");
+                }
+            });
+
+            Task.WaitAll(t1, t2);
 
 
-            DriveTrain newLocoDriver = DriveTrain.getInstance;
-            if (newLocoDriver.Drive("backward"))
-            {
-                Console.WriteLine("Train is moving!!");
-            }
-            else
-            {
-                Console.WriteLine("Train is Stopped!!");
-            }
+            //DriveTrain newLocoDriver = DriveTrain.getInstance;
+            //if (newLocoDriver.Drive("backward"))
+            //{
+            //    Console.WriteLine("Train is moving!!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Train is Stopped!!");
+            //}
 
+            // //With lock
+            // DriveTrain locoDriver = DriveTrain.getInstance;
+            //if (locoDriver.Drive("forward"))
+            // {
+            //     Console.WriteLine("Train is moving!!");
+            // }
+            //else
+            // {
+            //     Console.WriteLine("Train is Stopped!!");
+            // }
 
 
 

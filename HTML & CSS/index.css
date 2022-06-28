@@ -1,0 +1,13 @@
+table, th, td{
+   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+  border-radius: 10px;
+    background-color: rgb(243, 247, 239);
+  
+  }
+body{
+    background-color: darkgrey;
+}
