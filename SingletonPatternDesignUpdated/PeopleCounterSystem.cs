@@ -24,7 +24,7 @@ namespace SingletonPatternDesignUpdated
         {
             get
             {
-                    lock (Obj)
+                    lock (Obj)     
                     {
                         if (instance == null)
                             instance = new PeopleCounterSystem();

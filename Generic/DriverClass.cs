@@ -22,11 +22,11 @@ namespace Generic
 
             if(Choice == 1)
             {
-               Assignment.Convertor<int>(InputString);
+              Console.WriteLine(" " + Assignment.Convertor<int>(InputString));
             }
             else if(Choice == 2)
             {
-               Assignment.Convertor<DateTime>(InputString);
+               Console.WriteLine(" " + Assignment.Convertor<DateTime>(InputString));
             }
             else
             {

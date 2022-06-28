@@ -10,24 +10,25 @@ namespace Generic
     {//convert String to number and string to date
        
 
-        public void Convertor<T>(string input)
+        public dynamic Convertor<T>(string input)
         {
             //Use switch case instead of if else
             switch (typeof(T).Name)
             {
                 case "Int32":
                    var result = int.Parse(input);
-                   Console.WriteLine(" " + result);
+                    return result;
                     break;
 
                 case "DateTime":
                     var resultDate = DateTime.Parse(input);
-                    Console.WriteLine(" " + resultDate);
+                    return resultDate;
                     break;
 
                 default:
-                    Console.WriteLine("Wrong input");
+                    return null;
                     break;
+                   
             }
 
 
