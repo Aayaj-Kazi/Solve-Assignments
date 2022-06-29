@@ -1,8 +1,0 @@
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.csproj.AssemblyReference.cache
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.GeneratedMSBuildEditorConfig.editorconfig
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.AssemblyInfoInputs.cache
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.AssemblyInfo.cs
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.csproj.CoreCompileInputs.cache
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.MvcApplicationPartsAssemblyInfo.cache
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.RazorAssemblyInfo.cache
-D:\Users\akazi\Desktop\Assignments\Solve-Assignments\Employee\obj\Debug\netcoreapp3.1\Employee.RazorAssemblyInfo.cs

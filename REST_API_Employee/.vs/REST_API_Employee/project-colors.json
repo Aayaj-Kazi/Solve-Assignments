@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6bad002b-67f9-44da-8248-3805e24587ea": {
+      "ProjectGuid": "6bad002b-67f9-44da-8248-3805e24587ea",
+      "DisplayName": "REST_API_Employee",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
