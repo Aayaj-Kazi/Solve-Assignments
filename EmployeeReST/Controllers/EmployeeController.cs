@@ -18,7 +18,10 @@ namespace Employee.Controllers
         [HttpGet("GetAllEmployee")]
         public IEnumerable<Employees> PrintAllEmployee()
         {
+
+          
            return _employeeService.GetAllEmployee();
+           
         }
     }
 }

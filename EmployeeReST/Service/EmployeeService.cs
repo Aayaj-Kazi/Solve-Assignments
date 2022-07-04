@@ -1,6 +1,7 @@
 ﻿using Employee.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Employee.Service
 {
@@ -41,11 +42,15 @@ namespace Employee.Service
 
         public Employees GetEmployeeByID(int id)
         {
-            throw new NotImplementedException();
+            //var EmployeeByID=_listEmployees[id];
+            var EmployeeByID = _listEmployees.Where(e => e.Id == id).FirstOrDefault();
+            return EmployeeByID;
         }
 
         public Employees GetEmployeesByCity(string city)
         {
+            //var EmployeeByCity = _listEmployees.Where(e => e.City == city);
+            //return EmployeeByCity;
             throw new NotImplementedException();
         }
 

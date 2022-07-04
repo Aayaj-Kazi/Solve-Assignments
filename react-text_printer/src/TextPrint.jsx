@@ -14,15 +14,7 @@ export const PrintText=()=>{
 
 return(
 // <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    
-</head>
-<body>
+<div>
     <label> Please Enter Text :</label><br></br>
   
     <textarea value={state} onChange={(e)=>setState(e.target.value)}></textarea>
@@ -30,7 +22,6 @@ return(
 <br></br>
 
     <div>Entered Text is :<br></br><p> {state}</p></div>
-</body>
-</html>
+    </div>
 );
 }
