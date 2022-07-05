@@ -9,7 +9,8 @@ import { ShowRecord } from './Components/Records';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <ShowRecord/>
+   {/* <ShowRecord/> */}
+   <RegisterEmployee/>
   </React.StrictMode>
 );
 

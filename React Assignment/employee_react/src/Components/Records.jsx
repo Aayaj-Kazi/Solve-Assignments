@@ -2,22 +2,35 @@ import React, { useState }  from "react";
 import { useEffect } from "react";
 import  axios from "axios";
 
-const Employee
-
+class Employee {
+    constructor( id,name,city) {
+      this.id = id;
+      this.name = name;
+     this.city = city;
+    }
+  }
 
 export const ShowRecord=()=>{
-   const[details,getDetails]=useState(Employee);
+   const[employees,setEmployees]=useState(null);
+
    
     const GetAllEmployeeDetails=()=>{
         
         axios.get('https://localhost:44379/Employee/GetAllEmployee')
         .then((response)=>{
             const info=response.data;
-            console.log(response.data);
-            getDetails(info);
+            setEmployees(info);
+            //console.log(response.data);
+            // getDetails(info);
+            var employees = [];
+            response.data.map(x=> {
+                employees.push(new Employee( x.id,x.name, x.city))
+            });
+            setEmployees(employees);
+            console.log(employees);
         });
       }
-      console.log(details); 
+      //console.log(details); 
       useEffect(()=>{
         GetAllEmployeeDetails();
        },[]);
@@ -27,8 +40,8 @@ export const ShowRecord=()=>{
 return(
 <div>
     <button> Add New Employee </button>
-
-<table>{details.employee.map(emp =>
+   
+    {/* <table>{employees.map(emp =>
         <tbody>
        <tr key={emp.id}>
         <th> Employee Id </th>
@@ -42,34 +55,7 @@ return(
        </tr>
        </tbody>
        )}
-    </table> 
-
-
-
-
-
-
-
-
-
-
-      {/* <table>
-        <tbody>
-       <tr >
-        <th> Employee Id </th>
-        <th> Employee Name </th>
-        <th> Employee City </th>
-       </tr>
-       <tr>
-       <td>{details.Id}</td>
-      <td>{details.Name}</td>
-      <td>{details.City}</td>
-       </tr>
-       </tbody>
-       
     </table> */}
-
-
   
 </div>
 );

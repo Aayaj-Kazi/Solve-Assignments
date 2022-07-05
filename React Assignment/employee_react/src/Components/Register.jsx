@@ -10,7 +10,7 @@
 export const RegisterEmployee=()=>
     {
         const [inputField , setInputField] = useState({
-            Id:9,
+            Id:'',
             name: '',
             city: '',
             salary: ''
@@ -33,6 +33,8 @@ export const RegisterEmployee=()=>
       
  return(
     <div>
+
+    <input type="text"  name="id" onChange={inputsHandler} placeholder="ID" value={inputField.id}/>    <br/>
 
     <input type="text"  name="name" onChange={inputsHandler} placeholder="Name" value={inputField.name}/>    <br/>
 
