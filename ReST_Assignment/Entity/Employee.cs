@@ -1,6 +1,6 @@
-﻿namespace Employee.Models
+﻿namespace Models
 {
-    public class Employees
+    public class Employee
     {
         public int Id { get; set; }
         public string Name { get; set; }

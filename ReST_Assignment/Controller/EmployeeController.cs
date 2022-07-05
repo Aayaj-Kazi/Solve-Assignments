@@ -1,9 +1,9 @@
-﻿using Employee.Models;
-using Employee.Service;
+﻿using Models;
+using Service;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace Employee.Controllers
+namespace Controllers
 {
     [ApiController]
     [Route("[controller]")] //same as [Route("Employee")]
@@ -17,21 +17,21 @@ namespace Employee.Controllers
 
         [HttpGet]
         [Route("GetAllEmployee")] 
-        public IActionResult PrintAllEmployee()
+        public IActionResult GetAllEmployee()
         {
            return Ok(_employeeService.GetAllEmployee());
         }
 
         [HttpGet]
         [Route("GetEmployeeById/{id}")]
-        public IActionResult GetEmployeeById(int id)
+        public IActionResult GetById(int id)
         {
             return Ok(_employeeService.GetEmployeeByID(id));
         }
 
         [HttpGet]
         [Route("GetHighestSalaryByCity/{city}")]
-        public IActionResult GetEmployeeById(string city)
+        public IActionResult GetById(string city)
         {
             return Ok(_employeeService.GetHighestSalaryByCity(city));
         }
@@ -39,15 +39,11 @@ namespace Employee.Controllers
 
         [HttpPost]
         [Route("AddEmployee")]
-        public void AddEmployeeWithoutId(Employees employee )
+        public void AddEmployee(Employee employee )
         {
              _employeeService.AddEmployee(employee);
         }
 
-        //public IActionResult AddEmployeeWithoutId(Employees employee)
-        //{
-        //    return Ok(_employeeService.AddEmployee(employee);
-        //}
-
+        
     }
 }
