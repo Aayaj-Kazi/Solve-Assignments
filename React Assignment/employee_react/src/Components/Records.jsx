@@ -1,6 +1,7 @@
 import React, { useState }  from "react";
 import  axios from "axios";
 import { Link } from "react-router-dom";
+import '../Styles/Records.css'
 
 
 class Employee {
@@ -17,7 +18,7 @@ export const ShowRecord=()=>{
    
    
     const GetAllEmployeeDetails=()=>{
-        
+      
         axios.get('https://localhost:44379/Employee/GetAllEmployee')
         .then((response)=>{
          
@@ -34,12 +35,13 @@ export const ShowRecord=()=>{
      
 
 return(
+  <div>
 <div>
 {/* <button onClick={GetAllEmployeeDetails}> Add New Employee </button> */}
-<Link to="/AddEmlployee"> Add New Employee</Link>
-    <button onClick={GetAllEmployeeDetails}> Show All Employee </button>
+<Link to="/AddEmployee"> Add New Employee</Link> <br></br>
+    <button className="showBTN" onClick={GetAllEmployeeDetails}> Show All Employee </button>
    
-    <table >
+    <table className="Table">
 
           <tbody>
             <tr>
@@ -60,9 +62,15 @@ return(
         )}
        </tbody>
     </table>
-    <Link to="/AddEmployeeUsingClassComponent"> Add New Employee Using Class Component</Link>
+   
    
   
+</div>
+
+
+
+
+
 </div>
 );
 }

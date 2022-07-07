@@ -1,0 +1,18 @@
+table{
+   margin-top:75px;
+   margin-left: 500px;
+   
+}
+
+th{
+    border: 1px solid;
+    background-color: rgb(56, 142, 199);
+    
+}
+tbody{
+    border: 1px solid;
+    background-color: rgb(106, 172, 180);
+}
+.showBTN{
+    background-color: rgb(144, 112, 165);
+}

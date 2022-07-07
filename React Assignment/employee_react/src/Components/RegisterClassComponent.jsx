@@ -6,7 +6,7 @@ export default class AddUserComponent extends Component {
             super(props)
     
             this.state = {
-                id:7,
+                id:0,
                 name:'',
                 city:'', 
                 salary:12345
