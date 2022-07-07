@@ -1,48 +1,52 @@
-/*  Create a Register component and Records component.
-    Register component should have a registration form for employee.
-    When form is submitted it should call your web api http post method.
-    The response of above api call must be displayed in Records component. 
-    Records component should be a table of all employees created using form.      */
 
     import React, { useState }  from "react";
     import  axios from "axios";
 
 export const RegisterEmployee=()=>
     {
-        const [inputField , setInputField] = useState({
-            Id:'',
-            name: '',
-            city: '',
-            salary: ''
-        })
-    
-        const SavelEmployee=()=>{
-        
-            axios.post('https://localhost:44379/Employee/AddEmployee', inputField)
-            .then(response => this.setInputField({ Id:response.data.name,
-                 name: response.data.name,
-            city: response.data.name,
-            salary: response.data.name}));
-            alert("Submitted")
-          }
 
-        const inputsHandler = (e) =>{
-            setInputField( {[e.target.name]: e.target.value} )
+        // class Employee {
+        //     constructor( id,name,city,salary) {
+        //       this.id = id;
+        //       this.name = name;
+        //      this.city = city;
+        //      this.salary=salary
+        //     }
+        //   }
+        
+         //const[employees,setEmployees]=useState();
+        const [empId , setEmpId] = useState();
+        const [empName , setEmpName] = useState();
+        const [empCity , setEmpCity] = useState();
+        const [empSalary , setEmpSalary] = useState();
+               
+        const SaveEmployee=(x)=>{
+            
+             const employee={
+                id:empId,
+                ename:empName,
+                city:empCity, 
+                salary:empSalary
+            }
+           // setEmployees(employees);
+            console.log(employee);
+            axios.post('https://localhost:44379/Employee/AddEmployee', employee);
+            
         }
-    
+
       
  return(
     <div>
 
-    <input type="text"  name="id" onChange={inputsHandler} placeholder="ID" value={inputField.id}/>    <br/>
+    <input type="text"  name="id" onChange={(e)=>setEmpId(e.target.value)} placeholder="ID" value={empId}/>    <br/>
 
-    <input type="text"  name="name" onChange={inputsHandler} placeholder="Name" value={inputField.name}/>    <br/>
+    <input type="text"  name="name" onChange={(e)=>setEmpName(e.target.value)} placeholder="Name" value={empName}/>    <br/>
 
-    <input type="text" name="city" onChange={inputsHandler} placeholder="City" value={inputField.city}/>    <br/>
+    <input type="text" name="city" onChange={(e)=>setEmpCity(e.target.value)} placeholder="City" value={empCity}/>    <br/>
 
-    <input type="text" name="salary" onChange={inputsHandler} placeholder="Salary" value={inputField.salary}/>   <br/>
+    <input type="text" name="salary" onChange={(e)=>setEmpSalary(e.target.value)} placeholder="Salary" value={empSalary}/>   <br/>
 
-    <button onClick={()=>SavelEmployee()}>Submit </button>
+    <button onClick={()=>SaveEmployee()}>Submit </button>
 
     </div>
 
