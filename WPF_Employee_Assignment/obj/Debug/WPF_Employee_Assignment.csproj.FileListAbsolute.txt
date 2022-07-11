@@ -1,0 +1,14 @@
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.csproj.AssemblyReference.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\App.g.cs
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment_MarkupCompile.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\bin\Debug\WPF_Employee_Assignment.exe
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\bin\Debug\WPF_Employee_Assignment.pdb
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\MainWindow.g.cs
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment_MarkupCompile.lref
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\MainWindow.baml
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.g.resources
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.Properties.Resources.resources
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.csproj.GenerateResource.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.csproj.CoreCompileInputs.cache
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.exe
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.pdb

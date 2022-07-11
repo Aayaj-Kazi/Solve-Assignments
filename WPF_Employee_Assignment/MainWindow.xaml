@@ -1,0 +1,45 @@
+﻿<Window x:Class="WPF_Employee_Assignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Employee_Assignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <StackPanel >
+        <GroupBox>
+            <GroupBox.Header>
+                <Label>Employee Details</Label>
+            </GroupBox.Header>
+        <StackPanel Height="150" Width="500" >
+            <Grid Margin="0,0,117,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="75"/>
+                    <RowDefinition Height="75"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                    <Label Width="50" Content="Name :" Margin="0,10,0,0"/>
+                    <TextBox x:Name="Name" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                    <Label Width="50" Content="Salary :" Margin="0,10,0,0"/>
+                    <TextBox x:Name="salary" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+                    <Label Width="50" Content="City :" Margin="0,10,0,0"/>
+                    <TextBox x:Name="city" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Margin="0,0,27,0">
+                    <Label Width="66" Content="Is Active :" Margin="0,10,0,0"/>
+                    
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>

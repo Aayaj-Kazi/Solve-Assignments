@@ -1,0 +1,38 @@
+﻿@model List<MVC_Assignment.Models.Task>
+
+
+
+@Html.ActionLink("Create Task", "Create")<br/><br/>
+
+<style>
+table {
+  border: 2px solid;
+}
+    th, td {
+        padding: 15px;
+        text-align: left;
+    }
+</style>
+
+    <table >
+        <tr>
+            <th>TaskId</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Assignee Name</th>
+            <th>Complitation_Date</th>
+            <th></th>
+        </tr>
+        @foreach(var tasks in Model) { 
+        <tr >
+            <td>@tasks.TaskId</td>
+            <td>@tasks.Title</td>
+            <td>@tasks.Description</td>
+            <td>@tasks.Assignee</td>
+            <td>@tasks.Complitation_Date</td>
+
+
+            <td>@Html.ActionLink("Edit Task", "Edit", new { id = tasks.TaskId })</td>
+        </tr>
+        }
+    </table>

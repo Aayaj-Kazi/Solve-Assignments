@@ -1,0 +1,35 @@
+﻿@model MVC_Assignment.Models.Task
+
+@using (Html.BeginForm())
+{
+  <div>
+    <h1>Edit this task</h1>
+</div>
+<br/>
+<div>
+    @Html.LabelFor(t => t.TaskId)
+    @Html.TextBoxFor(t => t.TaskId)
+</div>
+<br/>
+<div>
+    @Html.LabelFor(t => t.Title)
+    @Html.TextBoxFor(t => t.Title)
+</div>
+<br/>
+<div>
+    @Html.LabelFor(t => t.Description)
+    @Html.TextBoxFor(t => t.Description)
+</div>
+<br/>
+<div>
+    @Html.LabelFor(t => t.Assignee)
+    @Html.TextBoxFor(t => t.Assignee)
+</div>
+<br/>
+<div>
+    @Html.LabelFor(t => t.Complitation_Date)
+    @Html.TextBoxFor(t => t.Complitation_Date)
+</div>
+<br/>
+    <input type="submit" />
+}
