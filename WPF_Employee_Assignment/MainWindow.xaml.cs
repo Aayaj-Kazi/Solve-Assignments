@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -10,8 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Net.Http;
+
+
 namespace WPF_Employee_Assignment
 {
     /// <summary>
@@ -25,5 +26,6 @@ namespace WPF_Employee_Assignment
         }
 
         static HttpClient client = new HttpClient();
+
     }
 }

@@ -2,16 +2,9 @@ import React, { useState }  from "react";
 import  axios from "axios";
 import { Link } from "react-router-dom";
 import '../Styles/Records.css'
+import { Employee } from "./Employee";
 
 
-class Employee {
-    constructor( id,name,city,salary) {
-      this.id = id;
-      this.name = name;
-     this.city = city;
-     this.salary=salary
-    }
-  }
 
 export const ShowRecord=()=>{
    const[employees,setEmployees]=useState(null);
@@ -28,7 +21,8 @@ export const ShowRecord=()=>{
             });
             setEmployees(employees);
            
-        });
+        }).catch(function (error) {
+          console.log(error.toJSON())});
       }
       
      
@@ -37,7 +31,7 @@ export const ShowRecord=()=>{
 return(
   <div>
 <div>
-{/* <button onClick={GetAllEmployeeDetails}> Add New Employee </button> */}
+
 <Link to="/AddEmployee"> Add New Employee</Link> <br></br>
     <button className="showBTN" onClick={GetAllEmployeeDetails}> Show All Employee </button>
    
