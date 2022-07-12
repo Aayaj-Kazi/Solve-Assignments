@@ -2,34 +2,79 @@
 
 @using (Html.BeginForm())
 {
-  <div>
-    @Html.<h1>Create a new Task</h1>
-</div>
-<br/>
-<div>
-    @Html.LabelFor(t => t.TaskId)
-    @Html.TextBoxFor(t => t.TaskId)
-</div>
-<br/>
-<div>
-    @Html.LabelFor(t => t.Title)
-    @Html.TextBoxFor(t => t.Title)
-</div>
-<br/>
-<div>
-    @Html.LabelFor(t => t.Description)
-    @Html.TextBoxFor(t => t.Description)
-</div>
-<br/>
-<div>
-    @Html.LabelFor(t => t.Assignee)
-    @Html.TextBoxFor(t => t.Assignee)
-</div>
-<br/>
-<div>
-    @Html.LabelFor(t => t.Complitation_Date)
-    @Html.TextBoxFor(t => t.Complitation_Date)
-</div>
-<br/>
-<input type = "submit" />
+    <style>
+        td {
+            text-align: left;
+            width: 200px;
+            text-decoration: underline;
+        }
+
+        table {
+            border-width: 20px;
+            border-collapse: separate;
+            border-spacing: 2px;
+        }
+
+        .head {
+            text-align: center;
+        }
+
+        .btn {
+            border-radius: 12px;
+            background-color: #e7e7e7;
+            color: black;
+        }
+    </style>
+    <div class="head"><h5>Create a new Task</h5></div>
+    <table>
+        @*<tr>
+               <td>
+                   @Html.LabelFor(t => t.TaskId)
+               </td>
+               <td>
+                   @Html.TextBoxFor(t => t.TaskId)
+               </td>
+            </tr>*@
+
+        <tr>
+            <td>
+                @Html.LabelFor(t => t.Title)
+            </td>
+            <td>
+                @Html.TextBoxFor(t => t.Title)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(t => t.Description)
+            </td>
+            <td>
+                @Html.TextAreaFor(t => t.Description)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(t => t.AssigneeName)
+            </td>
+            <td>
+                @Html.TextBoxFor(t => t.AssigneeName)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(t => t.Complitation_Date)
+            </td>
+            <td>
+                @Html.TextBoxFor(t => t.Complitation_Date)
+            </td>
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td><input type="submit" class="btn"  /> </td>
+        </tr>
+    </table>
 }

@@ -12,34 +12,58 @@
             <GroupBox.Header>
                 <Label>Employee Details</Label>
             </GroupBox.Header>
-        <StackPanel Height="150" Width="500" >
-            <Grid Margin="0,0,117,0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="75"/>
-                    <RowDefinition Height="75"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="200"/>
-                    <ColumnDefinition Width="200"/>
-                </Grid.ColumnDefinitions>
-                <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
-                    <Label Width="50" Content="Name :" Margin="0,10,0,0"/>
-                    <TextBox x:Name="Name" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
-                </StackPanel>
-                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
-                    <Label Width="50" Content="Salary :" Margin="0,10,0,0"/>
-                    <TextBox x:Name="salary" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
-                </StackPanel>
-                <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
-                    <Label Width="50" Content="City :" Margin="0,10,0,0"/>
-                    <TextBox x:Name="city" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
-                </StackPanel>
-                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Margin="0,0,27,0">
-                    <Label Width="66" Content="Is Active :" Margin="0,10,0,0"/>
-                    
-                </StackPanel>
-            </Grid>
-        </StackPanel>
+            <StackPanel Height="150" Width="500" >
+                <Grid Margin="0,0,117,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="200"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                        <Label Width="50" Content="Name :" Margin="0,10,0,0"/>
+                        <TextBox x:Name="Name" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                        <Label Width="50" Content="Salary :" Margin="0,10,0,0"/>
+                        <TextBox x:Name="salary" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+                        <Label Width="50" Content="City :" Margin="0,10,0,0"/>
+                        <TextBox x:Name="city" Width="100" Margin="0,10,0,40" RenderTransformOrigin="-0.052,-0.932"/>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Margin="0,0,17,0">
+                        <Label Width="66" Content="Is Active :" Margin="0,10,0,0"/>
+                        <ComboBox Width="80" Margin="0,10,0,43" RenderTransformOrigin="0.448,0.561">
+                            <ComboBoxItem Content="YES"></ComboBoxItem>
+                            <ComboBoxItem Content="NO"></ComboBoxItem>
+                        </ComboBox>
+                        <Button Content="Save" BorderBrush="Black" Background="Orange" Margin="0,46,0,10" Width="35" />
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox>
+            <GroupBox.Header>
+                <Label>All Employees</Label>
+            </GroupBox.Header>
+            <StackPanel Height="188" Width="500" Margin="140,0" >
+                <WrapPanel>
+                    <StackPanel Orientation="Horizontal" >
+                    <Label Width="125">Employee Id</Label>
+                    <Label Width="125">Employee Name</Label>
+                    <Label Width="125">Employee Salary</Label>
+                    <Label Width="125">Is Active</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                      
+                    </StackPanel>
+                </WrapPanel>
+            </StackPanel>
+            
         </GroupBox>
     </StackPanel>
+
 </Window>

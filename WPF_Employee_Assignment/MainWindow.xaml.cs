@@ -11,7 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Net.Http;
 namespace WPF_Employee_Assignment
 {
     /// <summary>
@@ -23,5 +23,7 @@ namespace WPF_Employee_Assignment
         {
             InitializeComponent();
         }
+
+        static HttpClient client = new HttpClient();
     }
 }

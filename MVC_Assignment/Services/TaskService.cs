@@ -1,17 +1,25 @@
 ﻿using MVC_Assignment.Models;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using MVC_Assignment.Models;
+
+
 
 namespace MVC_Assignment.Services
 {
     public static class TaskService
     {
         private static List<Task> tasksList = new List<Task>();
+
+        static int count = 1;
         public static void AddTask(Task task)
         {
-            tasksList.Add(task);
+            tasksList.Add(
+            new Task { TaskId= count, Title=task.Title,  Description=task.Description, 
+                AssigneeName = task.AssigneeName, Complitation_Date =task.Complitation_Date});
+            count++;
+            //tasksList.Add(task);
         }
 
         public static void UpdateTask(Task task)
@@ -21,7 +29,7 @@ namespace MVC_Assignment.Services
             {
                 m.Title = task.Title;
                 m.Description = task.Description;
-                m.Assignee = task.Assignee;
+                m.AssigneeName = task.AssigneeName;
                 m.Complitation_Date = task.Complitation_Date;
 
             });
@@ -39,6 +47,22 @@ namespace MVC_Assignment.Services
         public static Task GetTaskById(int id)
         {
             return tasksList.Find(m => m.TaskId == id);
+        }
+
+        
+
+        public static List<string> GetAllAssignee()
+        {
+            var assigneeNames = tasksList.Select(s => s.AssigneeName).Distinct();
+            return assigneeNames.ToList();
+
+        }
+
+        public static List<Task> GetTasksByAssignee(string assigneeName)
+        {
+            var taksByAssignee = tasksList.Where(s => s.AssigneeName == assigneeName);
+
+            return taksByAssignee.ToList();
         }
     }
 }

@@ -1,38 +1,71 @@
-﻿@model List<MVC_Assignment.Models.Task>
+﻿@model MVC_Assignment.Models.TaskViewModel
 
+@{
+    var assigneesNameList = new List<SelectListItem>() { new SelectListItem() { Text = "Select", Value = "-1" } };
 
-
-@Html.ActionLink("Create Task", "Create")<br/><br/>
-
+    if (Model.AssigneeNameList != null)
+    {
+        foreach (var assignee in Model.AssigneeNameList)
+        {
+            assigneesNameList.Add(new SelectListItem() { Text = assignee, Value = assignee });
+        }
+    }}
 <style>
-table {
-  border: 2px solid;
-}
+    table {
+        border: 2px solid;
+        margin-top:25px;
+    }
+
     th, td {
         padding: 15px;
         text-align: left;
     }
+    .create{
+        margin-left:20px;
+    }
+    .btn {
+        margin-left: 20px;
+        border-radius: 12px;
+        background-color: #e7e7e7;
+        color: black;
+    }
 </style>
 
-    <table >
+<div class="create">
+
+    @Html.ActionLink("Create Task", "Create")
+
+
+    @using (Html.BeginForm())
+    {
+        <label for="AssigneeNameList">Assignee :</label>
+        @Html.DropDownListFor(t => t.SelectedAssignee, assigneesNameList)
+
+        <input type="submit" value="Load" class="btn"/>
+    }
+</div>
+
+
+<table>
+    <tr>
+        <th>taskid</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Assignee</th>
+        <th>Complitation_Date</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var tasks in Model.TasksList)
+    {
         <tr>
-            <th>TaskId</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Assignee Name</th>
-            <th>Complitation_Date</th>
-            <th></th>
-        </tr>
-        @foreach(var tasks in Model) { 
-        <tr >
             <td>@tasks.TaskId</td>
             <td>@tasks.Title</td>
             <td>@tasks.Description</td>
-            <td>@tasks.Assignee</td>
+            <td>@tasks.AssigneeName</td>
             <td>@tasks.Complitation_Date</td>
 
 
             <td>@Html.ActionLink("Edit Task", "Edit", new { id = tasks.TaskId })</td>
         </tr>
-        }
-    </table>
+    }
+</table>
