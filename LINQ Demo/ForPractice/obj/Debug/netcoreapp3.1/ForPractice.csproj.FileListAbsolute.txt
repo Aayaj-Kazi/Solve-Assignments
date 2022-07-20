@@ -1,0 +1,14 @@
+D:\Users\akazi\Desktop\LINQ\ForPractice\bin\Debug\netcoreapp3.1\ForPractice.exe
+D:\Users\akazi\Desktop\LINQ\ForPractice\bin\Debug\netcoreapp3.1\ForPractice.deps.json
+D:\Users\akazi\Desktop\LINQ\ForPractice\bin\Debug\netcoreapp3.1\ForPractice.runtimeconfig.json
+D:\Users\akazi\Desktop\LINQ\ForPractice\bin\Debug\netcoreapp3.1\ForPractice.runtimeconfig.dev.json
+D:\Users\akazi\Desktop\LINQ\ForPractice\bin\Debug\netcoreapp3.1\ForPractice.dll
+D:\Users\akazi\Desktop\LINQ\ForPractice\bin\Debug\netcoreapp3.1\ForPractice.pdb
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.AssemblyInfoInputs.cache
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.AssemblyInfo.cs
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.csproj.CoreCompileInputs.cache
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.dll
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.pdb
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.genruntimeconfig.cache
+D:\Users\akazi\Desktop\LINQ\ForPractice\obj\Debug\netcoreapp3.1\ForPractice.csproj.AssemblyReference.cache

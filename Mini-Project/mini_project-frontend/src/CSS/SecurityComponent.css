@@ -1,0 +1,74 @@
+.security {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .security td, .security th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .table-row {
+    background-color:rgb(146, 219, 195);
+}
+  /* .security tr:nth-child(even){background-color: #dddddd;} */
+  
+  .security tr:hover {background-color: rgb(143, 120, 148); color: aliceblue;}
+    
+  .security th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(79, 167, 202);
+    color: white;
+  }
+  
+
+h3{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 15px;
+  }
+
+
+  .quotes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 23%;
+    margin-bottom: 10%;
+  }
+  
+  .quotes td, .quotes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .quotes tr:nth-child(even){background-color: #e4dada;}
+  
+
+  
+  .quotes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(79, 167, 202);
+    color: white;
+  }
+
+
+  #table-scroll-tasks1 {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 250px;
+  }
+  #table-scroll-tasks2 {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 250px;
+  }
+
+  
