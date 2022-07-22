@@ -49,7 +49,16 @@
             <GroupBox.Header>
                 <Label>All Employees</Label>
             </GroupBox.Header>
-            <DataGrid Height="245" Margin="115,10" Name="EmpData" RowHeight="30" ColumnWidth="100" />
+            <DataGrid Height="245" Margin="115,10,140,10" x:Name="EmpData" CanUserAddRows="True" ItemsSource="{Binding}" RowHeight="30" ColumnWidth="100" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Employee ID" Binding="{Binding Path=Id}" />
+                    <DataGridTextColumn Header="Employee Name " Binding="{Binding Path=Name}" />
+                    <DataGridTextColumn Header="Employee City" Binding="{Binding Path=City}" />
+                    <DataGridTextColumn Header="Employee Salary" Binding="{Binding Path=Salary}" />
+                    <DataGridTextColumn Header="  Is Active"  />
+                </DataGrid.Columns>
+                
+            </DataGrid>
             
 
         </GroupBox>

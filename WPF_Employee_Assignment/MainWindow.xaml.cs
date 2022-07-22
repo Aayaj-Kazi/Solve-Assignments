@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -11,7 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-
+using WPF_Employee_Assignment.Model;
 
 namespace WPF_Employee_Assignment
 {
@@ -20,63 +21,61 @@ namespace WPF_Employee_Assignment
     /// </summary>
     public partial class MainWindow : Window
     {
-       static int count = 6;
-        List<Employee> _listEmployees = new List<Employee> {
-        new Employee { Id=1, Name="Tony", City="Pune", Salary=10000, IsActive="No"},
-        new Employee { Id=2, Name="Steve", City="Mumbai", Salary=20000, IsActive="No"},
-        new Employee { Id=3, Name="Thor", City="Solapur", Salary=30000, IsActive="Yes"},
-        new Employee { Id=4, Name="Barton", City="Thane", Salary=20000, IsActive="Yes"},
-        new Employee { Id=5, Name="Bruce", City="Ahamadnagar", Salary=10000, IsActive="Yes"},
-        new Employee { Id=6, Name="Natasha", City="Pune", Salary=12000, IsActive="No"},
-            };
+        HttpClient client = new HttpClient();
+
+        static int  count =6;
+
         public MainWindow()
         {
+            client.BaseAddress = new Uri("https://localhost:44379/Employee/");
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json")
+                );
+
             InitializeComponent();
 
-            //saveEmp.Click = SaveEmployee_Click();
-
-            EmpData.ItemsSource = GetAllEmployee();
+            GetAllEmployee();
 
         }
 
-
-
-        IEnumerable<Employee> GetAllEmployee()
+        private async void GetAllEmployee()
         {
-
-            return _listEmployees;
+            
+            var response = await client.GetStringAsync("GetAllEmployee");
+            var employeeDetails = JsonConvert.DeserializeObject<List<Employee>>(response);
+            EmpData.DataContext = employeeDetails;
         }
+
+        private async void SaveEmployee(Employee employee)
+        {
+            await client.PostAsJsonAsync("AddEmployee", employee);
+            GetAllEmployee();
+        }
+
+
+       
 
         private void SaveEmployee_Click(object sender, RoutedEventArgs e)
         {
-            count++;
+            
+                count++;
 
-            Employee emp = new Employee
-            {
-                Id = count,
-                Name = Name.Text,
-                City = city.Text,
-                Salary = Convert.ToDouble(salary.Text),
-                IsActive = status.Text
-            };
-
-            _listEmployees.Add(emp);
-            EmpData.ItemsSource = GetAllEmployee();
+                var emp = new Employee()
+                {
+                    Id = count,
+                    Name = Name.Text,
+                    City = city.Text,
+                    Salary = Convert.ToDouble(salary.Text),
+                    //IsActive = status.Text
+                };
+            SaveEmployee(emp);
+            
         }
+        
 
 
-        public class Employee
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
 
-            public string City { get; set; }
 
-            public double Salary { get; set; }
-
-            public string IsActive { get; set; }
-        }
-
-       
     }
 }

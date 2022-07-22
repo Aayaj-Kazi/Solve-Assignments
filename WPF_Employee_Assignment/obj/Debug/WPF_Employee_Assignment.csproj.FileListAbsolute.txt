@@ -13,3 +13,8 @@ D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj
 D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.exe
 D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.pdb
 D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\bin\Debug\WPF_Employee_Assignment.exe.config
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\bin\Debug\Newtonsoft.Json.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\bin\Debug\System.Net.Http.Formatting.dll
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\bin\Debug\Newtonsoft.Json.xml
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\bin\Debug\System.Net.Http.Formatting.xml
+D:\Users\akazi\Desktop\Assignments\Solve-Assignments\WPF_Employee_Assignment\obj\Debug\WPF_Employee_Assignment.csproj.CopyComplete

@@ -43,7 +43,7 @@ namespace Mini_Project.Service
 
             //}).Select(s => new SecurityModel()
             //{
-            //    SecurityID =s.SecurityID,
+            //    SecurityID = s.SecurityID,
             //    Identifier = s.Identifier,
             //    SecurityName = s.SecurityName,
             //    AssetClass = s.AssetClass,
